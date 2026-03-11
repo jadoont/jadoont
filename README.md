@@ -1,16 +1,16 @@
-## Hi there 👋
+## Tayyaba Jadoon
 
-<!--
-**jadoont/jadoont** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+CS @ Dickinson College '26 · New York
 
-Here are some ideas to get you started:
+Currently doing funded research on emergent reasoning in small language 
+models — comparing chain-of-thought vs. scratchpad training using PyTorch 
+and NanoGPT. Found that scratchpad-trained models spontaneously develop 
+structured carry notation without explicit supervision.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Also contributing to Unsloth (LLM fine-tuning) and previously shipped 
+25+ production fixes to FarmData2.
+
+**Research:** CoT vs. scratchpad training · OOD generalization · 
+eval framework design · emergent reasoning  
+**Stack:** Python · Java · PyTorch · HuggingFace · JavaScript · Go  
+**Links:** [LinkedIn](https://linkedin.com/in/jadoont) · jadoont@dickinson.edu
