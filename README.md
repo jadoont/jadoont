@@ -1,15 +1,16 @@
 ## Tayyaba Jadoon
+CS @ Dickinson College '26 · New York, United States · open to AI/ML engineering roles
 
-CS @ Dickinson College '26 · New York
+interested in building and evaluating LLM systems, focused on agent reliability and retrieval.
+Most recent: a self-improving RAG pipeline on Cohere's stack with a guardrail
+that catches an agent gaming its own evaluation metric before it ships
+(github.com/jadoont/sovereign-rag-ratchet).
 
-Currently doing funded research on emergent reasoning in small language 
-models — comparing chain-of-thought vs. scratchpad training using PyTorch 
-and NanoGPT. Found that scratchpad-trained models spontaneously develop 
-structured carry notation without explicit supervision.
+Before that — funded research on emergent reasoning in small transformers:
+comparing chain-of-thought vs. scratchpad training (PyTorch/NanoGPT), where
+scratchpad models spontaneously developed structured carry notation without
+supervision, then failed out of distribution in predictable ways.
 
-
-
-**Research:** CoT vs. scratchpad training · 
-eval framework design · emergent reasoning  
-**Stack:** Python · Java · PyTorch · HuggingFace · JavaScript · Go  
-**Links:** [LinkedIn](https://linkedin.com/in/jadoont) · jadoont@dickinson.edu
+**Focus:** agent evaluation · LLM reliability · eval design
+**Stack:** Python · PyTorch · HuggingFace · TypeScript · Java · Go
+**Links:** [LinkedIn](https://linkedin.com/in/jadoont)
