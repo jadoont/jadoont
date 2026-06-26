@@ -45,4 +45,4 @@ Trained three 0.79M-parameter transformers under Direct, CoT, and Scratchpad par
 
 ---
 
-*CS @ Dickinson College '26 
+CS @ Dickinson College '26 
