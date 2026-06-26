@@ -1,6 +1,6 @@
 # hi, I'm Tayyaba 👋
 
-**CS grad. Interested in where models break and why.**
+**CS grad. Interested in where systems break and why.**
 
 ---
 
@@ -17,11 +17,11 @@
 **[sovereign-rag-ratchet](https://github.com/jadoont/sovereign-rag-ratchet)**
 Self-improving RAG pipeline on Cohere's stack (Embed + Rerank + Command R+) with a guardrail that catches metric-gaming before it ships. Built for air-gapped / sovereign deployments. Model proposes, code disposes.
 
+**[watt-bench](https://github.com/jadoont/watt-bench)**
+Open-source benchmark for power-constrained LLM inference scheduling — tokens-per-watt as a first-class metric, rack-level power budgets as hard constraints. Thermal cascade demo: greedy_latency triggers 1,000+ throttle events vs greedy_power's zero on real Azure traces.
+
 **[cot-scratchpad-research](https://github.com/jadoont/cot-scratchpad-research)**
 Trained three 0.79M-parameter transformers under Direct, CoT, and Scratchpad paradigms. The Scratchpad model spontaneously developed carry notation — then truncated its reasoning at exactly 2 digit steps on 3-digit inputs. Evidence of learned procedure, not generalizable algorithm.
-
-**[agentic-support-demo](https://github.com/jadoont/agentic-support-demo)**
-Agentic support system with a deterministic escalation layer and eval harness. 88% routing accuracy, 100% escalation recall, 0 guardrail violations across 16 test cases.
 
 ---
 
