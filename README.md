@@ -23,6 +23,9 @@ Open-source benchmark for power-constrained LLM inference scheduling — tokens-
 **[cot-scratchpad-research](https://github.com/jadoont/cot-scratchpad-research)**
 Trained three 0.79M-parameter transformers under Direct, CoT, and Scratchpad paradigms. The Scratchpad model spontaneously developed carry notation — then truncated its reasoning at exactly 2 digit steps on 3-digit inputs. Evidence of learned procedure, not generalizable algorithm.
 
+**[reward-hacking-gym](https://github.com/jadoont/reward-hacking-gym)**
+RL gridworld where a Q-learning agent found an unintended exploit: 27.5 mean reward, 0% actual task success. An independent held-out audit catches the divergence; a potential-based shaping fix (Ng et al. 1999) verifies clean. Inspect port in progress.
+
 ---
 
 ### stack
