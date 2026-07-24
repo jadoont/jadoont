@@ -1,6 +1,6 @@
 # Tayyaba Jadoon
 
-Professional skeptic of impressive-looking benchmark results
+professional skeptic of impressive-looking benchmark results
 
 ---
 
