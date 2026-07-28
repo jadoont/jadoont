@@ -6,6 +6,8 @@ professional skeptic of impressive-looking benchmark results
 
 **[reward-hacking-gym](https://github.com/jadoont/reward-hacking-gym)** — A Q-learning agent finds a reward exploit I didn't design: 27.5 mean reward, 0% true task success. A held-out audit independent of the training code catches it and gates CI. Repaired via potential-based shaping (Ng et al., 1999) — audit passes at 1.00.
 
+[reward-hacking-eval](https://github.com/jadoont/reward-hacking-eval) — The LLM-eval sibling of the above. A language model told it will be scored on keyword overlap keyword-stuffs its summaries. A held-out faithfulness judge catches the gap. Under hard proxy pressure, the more capable model (Sonnet) games it more than the weaker one — built with Inspect/AISI.
+
 **[sovereign-rag-ratchet](https://github.com/jadoont/sovereign-rag-ratchet)** — A self-improving RAG pipeline for air-gapped deployment whose optimizer never sees the evaluator. Caught a planted prompt-injection cheat (+0.33 visible accuracy, −0.33 held-out) and auto-reverted it.
 
 **[cot-scratchpad-research](https://github.com/jadoont/cot-scratchpad-research)** — Direct vs. Chain-of-Thought vs. Scratchpad on a 0.79M-parameter transformer. The scratchpad model invented its own carry notation unprompted — then failed out of distribution exactly where the others did.
