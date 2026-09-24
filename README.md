@@ -1,7 +1,6 @@
 # Tayyaba Jadoon
 
-professional skeptic of impressive-looking benchmark results
-
+things i've done for fun:
 ---
 
 **[reward-hacking-gym](https://github.com/jadoont/reward-hacking-gym)** — A Q-learning agent finds a reward exploit I didn't design: 27.5 mean reward, 0% true task success. A held-out audit independent of the training code catches it and gates CI. Repaired via potential-based shaping (Ng et al., 1999) — audit passes at 1.00.
